@@ -2,7 +2,7 @@ name: CI to Docker Hub
 # 每次push到main的时候更新，
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 # jobs指定要做什么
 jobs:
   build:
